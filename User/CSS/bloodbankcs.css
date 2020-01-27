@@ -1,0 +1,122 @@
+.header {
+    background-image: url(Image/doctorright.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.headertext{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.sociallink{
+    min-height: 100px;
+    text-align: left;
+    /*background-color: lightgray;*/
+    font-family: 'IM Fell English SC', serif;
+}
+.bottom{
+    background-color: #141510;
+    height: 200px;
+    
+}
+.fblink{
+    background:url(Icon/facebook-logo.png)left no-repeat;
+    padding: 20px 20px;
+    margin-left: 15px;
+}
+.wordpresslink{
+    background:url(Icon/wordpress-logo.png)left no-repeat;
+    padding: 20px 20px;
+    margin-left: 15px;
+}
+.youtubelink{
+    background:url(Icon/youtube.png)left no-repeat;
+    padding: 20px 20px;
+    margin-left: 15px;
+}
+.firstnamebox input[type=text]{
+	background: url(Icon/avatar.png)left no-repeat;
+    padding: 5px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 50%;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}
+.lastnamebox input[type=text]{
+	background: url(Icon/avatar.png)left no-repeat;
+    padding: 5px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 50%;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}
+.emailbox input[type=email]{
+	background: url(Icon/email.png)left no-repeat;
+    padding: 5px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 50%;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}
+.addressbox input[type=text]{
+	background: url(Icon/address.png)left no-repeat;
+    padding: 5px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 50%;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}
+.contactbox input[type=text]{
+	background: url(Icon/contact.png)left no-repeat;
+    padding: 5px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 50%;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}
+.bloodgroupbox input[type=text]{
+	background: url(Icon/blood.png)left no-repeat;
+    padding: 5px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 50%;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}
+.bloodgroupsbox input[type=text] {
+    background: url(Icon/blood.png)left no-repeat;
+    padding: 5px;
+    border: none;
+    margin-top: 0px;
+    font-size: 15px;
+	width: 400px;
+    padding-left: 30px;
+    padding-right: 150px;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}
+.areasbox input[type=text] {
+    background: url(Icon/address.png)left no-repeat;
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+	width: 400px;
+    padding-left: 30px;
+    padding-right: 150px;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}

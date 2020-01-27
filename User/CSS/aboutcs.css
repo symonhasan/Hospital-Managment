@@ -1,0 +1,46 @@
+.header {
+    background-image: url(Image/doctorright.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.headertext{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.sociallink{
+    min-height: 100px;
+    text-align: left;
+    /*background-color: lightgray;*/
+    font-family: 'IM Fell English SC', serif;
+}
+.bottom{
+    background-color: #141510;
+    height: 200px;
+    
+}
+.fblink{
+    background:url(Icon/facebook-logo.png)left no-repeat;
+    padding: 20px 20px;
+    margin-left: 15px;
+}
+.wordpresslink{
+    background:url(Icon/wordpress-logo.png)left no-repeat;
+    padding: 20px 20px;
+    margin-left: 15px;
+}
+.youtubelink{
+    background:url(Icon/youtube.png)left no-repeat;
+    padding: 20px 20px;
+    margin-left: 15px;
+}
+

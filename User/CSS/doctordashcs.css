@@ -1,0 +1,33 @@
+.mainarea{
+    height: 500px;
+    background-color: gray;
+}
+
+.leftmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background: #000000;  
+background: -webkit-linear-gradient(to right, #434343, #000000); 
+background: linear-gradient(to right, #434343, #000000);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
