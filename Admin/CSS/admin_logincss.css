@@ -1,0 +1,72 @@
+body{
+    
+    margin: 0px; 
+    background-image: url(Image/bg2_blur.jpg);
+    background-color: #333;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.adm_l_top{
+    
+    margin-top: 150px;
+    min-height: 150px;
+    /* background-color: red; */  
+    background-image: url(Image/bg2_t.jpg);
+}
+
+.adm_l_top h1{
+    
+    font-family: 'Yatra One', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.adm_l_middle{
+    
+    margin-top: 5px;
+    min-height: 350px;
+    background-image: url(Image/bg2_m.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.userbox input[type=text]{
+
+    background-image: url(Icon/user.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    padding-left: 30px;
+    border-style: none;
+    
+}
+
+.passbox input[type=password]{
+    
+    background-image: url(Icon/lock.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    padding-left: 30px;
+    border-style: none;
+    
+}
+
+.adm_l_bottom{
+    
+    margin-top: 5px;
+    min-height: 150px;
+    background-image: url(Image/bg2_b.jpg);
+    position: relative;
+}
+
+.adm_l_bottom h3{
+    
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: 15px;
+}

@@ -1,0 +1,10 @@
+body{
+	margin: 0px;
+	background-image: url("adminbg.jpg");
+	background-position: center;
+    background-size: cover;
+}
+.minui{
+	min-height: 250px;
+	
+}
